@@ -1,15 +1,13 @@
 body {
-    font-family: 'Comic Sans MS', cursive, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
     padding: 0;
-    background-image: url('https://i.imgur.com/vSHeieC.jpg');
-    background-size: cover;
+    background-color: #f0f0f0;
     display: flex;
     align-items: center;
     justify-content: center;
     height: 100vh;
     flex-direction: column;
-    color: #fff;
 }
 
 .chat-container {
@@ -20,7 +18,7 @@ body {
     max-height: 600px;
     margin: 20px;
     border: 1px solid #ccc;
-    background-color: rgba(255, 255, 255, 0.8);
+    background-color: #fff;
     overflow: hidden;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
@@ -31,8 +29,8 @@ body {
     border-right: 1px solid #ccc;
     padding: 20px;
     box-sizing: border-box;
-    background-color: #ff00ff;
-    color: #000;
+    background-color: #3498db;
+    color: #fff;
     border-top-left-radius: 8px;
     border-bottom-left-radius: 8px;
     display: flex;
@@ -64,8 +62,8 @@ body {
 }
 
 .user-item.active {
-    background-color: #ffcc00;
-    color: #000;
+    background-color: #cdebff;
+    color: #4f4f4f;
     padding: 10px;
     border-radius: 5px;
 }
@@ -116,7 +114,7 @@ body {
 
 .user-item span.nbr-msg {
     margin-left: 10px;
-    background-color: #ff0000;
+    background-color: #f8fa6f;
     color: white;
     padding: 5px;
     width: 10px;
@@ -125,14 +123,14 @@ body {
 }
 
 .sender {
-    background-color: #00ff00;
+    background-color: #3498db;
     color: #fff;
     align-self: flex-end;
 }
 
 .receiver {
-    background-color: #0000ff;
-    color: #fff;
+    background-color: #ecf0f1;
+    color: #333;
     align-self: flex-start;
 }
 
@@ -152,7 +150,7 @@ body {
 .message-input button {
     padding: 10px;
     border: none;
-    background-color: #ff00ff;
+    background-color: #3498db;
     color: #fff;
     border-radius: 5px;
     cursor: pointer;
@@ -189,7 +187,7 @@ body {
 .user-form button {
     padding: 12px;
     border: none;
-    background-color: #ff00ff;
+    background-color: #3498db;
     color: #fff;
     border-radius: 5px;
     cursor: pointer;
